@@ -1,11 +1,13 @@
 {
-	"required": true,
-	"package": "com.example.mixin",
-	"compatibilityLevel": "JAVA_17",
-	"mixins": [
-		"ExampleMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
+  "required": true,
+  "package": "com.example.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "EndermanFucker$PickUpFucker",
+    "EndermanFucker$PlaceFucker",
+    "WorldEventLogger"
+  ],
+  "injectors": {
+    "defaultRequire": 1
 	}
 }
