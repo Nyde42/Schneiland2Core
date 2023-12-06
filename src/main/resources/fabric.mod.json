@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.Schneiland2CoreInit"
+          "de.schneile.schneiland2core.Schneiland2CoreInit"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+          "de.schneile.schneiland2core.ExampleModClient"
 		]
 	},
 	"mixins": [

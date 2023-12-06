@@ -1,4 +1,4 @@
-package com.example;
+package de.schneile.schneiland2core;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;

@@ -1,6 +1,6 @@
-package com.example.mixin;
+package de.schneile.schneiland2core.mixin;
 
-import com.example.EventType;
+import de.schneile.schneiland2core.EventType;
 import com.google.common.collect.ImmutableMap;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.player.PlayerEntity;

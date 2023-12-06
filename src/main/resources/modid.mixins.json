@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "com.example.mixin",
+  "package": "de.schneile.schneiland2core.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
     "EndermanFucker$PickUpFucker",
@@ -9,5 +9,5 @@
   ],
   "injectors": {
     "defaultRequire": 1
-	}
+  }
 }

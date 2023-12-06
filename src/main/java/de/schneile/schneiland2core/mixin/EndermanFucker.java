@@ -1,4 +1,4 @@
-package com.example.mixin;
+package de.schneile.schneiland2core.mixin;
 
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
