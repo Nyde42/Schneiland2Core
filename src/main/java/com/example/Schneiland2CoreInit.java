@@ -9,12 +9,11 @@ public class Schneiland2CoreInit implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.
+	@SuppressWarnings("unused")
     public static final Logger LOGGER = LoggerFactory.getLogger("Schneiland2Core");
 
 
     private static final String MOTD_HEAD;
-
-    private static volatile boolean motdSet = false;
 
     static {
     	StringBuilder str = new StringBuilder("§rDer offizielle ");
@@ -31,10 +30,7 @@ public class Schneiland2CoreInit implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ServerTickEvents.END_SERVER_TICK.register(server -> {
-			if ((server.getTicks() & 0xFF) != 0) {
-				if (motdSet) return;
-				motdSet = true;
-			}
+			if ((server.getTicks() & 0xFF) != 0) return;
 			long time = server.getOverworld().getTimeOfDay() + 6000;
 
 			server.setMotd(String.format("%sOverworld-Zeit: §f§o%,2d§r§o:§f§o%02d§r§o Uhr",
