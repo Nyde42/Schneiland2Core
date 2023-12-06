@@ -4,7 +4,7 @@
 ## Zweck
 
 Diese Fabric Mod ist speziell für den Schneiland SMP 2 Server entwickelt worden.
-Sie enthält hauptsächlich Features, die das Spielerlebnis leicht angenehmer gestalten sollen und Griefer zu identifizieren.
+Sie enthält hauptsächlich Features, die das Spielerlebnis leicht angenehmer gestalten sollen und helfen, Griefer zu identifizieren.
 
 
 ## Features
