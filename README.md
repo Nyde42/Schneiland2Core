@@ -1,9 +1,33 @@
-# Fabric Example Mod
+# Schneiland2Core
 
-## Setup
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+## Zweck
 
-## License
+Diese Fabric Mod ist speziell für den Schneiland SMP 2 Server entwickelt worden.
+Sie enthält hauptsächlich Features, die das Spielerlebnis leicht angenehmer gestalten sollen und Griefer zu identifizieren.
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+
+## Features
+**Event Logs**  
+Die Mod führt Logs von jeglichen Events, die ein Spieler in der Welt auslöst.
+So können Griefer und Diebe leichter identifiziert werden.
+
+**MOTD Time Display**  
+Die MOTD (die Beschreibung, die man in der Serverliste sieht) zeigt die ungefähre Uhrzeit in der Overworld an.
+So kann man beispielsweise noch vor dem Joinen erkennen, ob es im Spiel gerade Nacht ist.
+
+**Enderman Griefing Prevention**  
+Endermen nerven u. A., weil sie überall random Blöcke wie z. B. Gras aufheben und woanders wieder ablegen.
+Diese Mod verhindert das.
+
+
+## Changelog
+
+### v1.1
+- MOTD Time Display hinzugefügt
+- Enderman Griefing Prevention hinzugefügt
+
+### v1.0
+- Event Logs hinzugefügt
+- ***Patch 1.0.1***:
+  - Bug behoben, durch den Event Logs die Durchführung der geloggten Events aufgeschoben haben, was zu Lags führte
