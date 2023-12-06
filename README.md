@@ -26,6 +26,8 @@ Diese Mod verhindert das.
 ### v1.1
 - MOTD Time Display hinzugefügt
 - Enderman Griefing Prevention hinzugefügt
+- ***Patch 1.1.1***:
+  - Mögliches minimales Performance-Problem durch MOTD Time Display beseitigt
 
 ### v1.0
 - Event Logs hinzugefügt
